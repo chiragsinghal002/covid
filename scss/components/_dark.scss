@@ -1,0 +1,9 @@
+//  DARK THEME
+.dark-theme {
+    background-color: #171133;
+    .bg-lightblue2 {background-color: #1b2a4e}
+    .bg-light {background-color: #1c173f !important; }
+    .count-wrapper h3,.app-section h1,.app-banner h1,.bitcoin-agency .card .card-header a,.blog-item .blog-content h3 a,.spread-content h4,.section-title h2 {color: #fff;}
+    .count-wrapper i,.count-wrapper span,.app-section p,.app-banner p,.bitcoin-agency .card .card-body p,.blog-item .blog-content a,.spread-content p,.section-title h5 {color: #ddd;}
+    .app-section:after {display: none; }
+}
