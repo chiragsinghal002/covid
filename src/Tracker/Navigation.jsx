@@ -36,7 +36,7 @@ export default function Navigation() {
                         <div className="container pl-0 pr-0">
                             <div className="nav-content">
                                 <ul>
-                                    <li className="logo"><Link to={"/"}><img src="/images/coronavirus.png" alt="logo" /></Link></li>
+                                    <li className="logo"><Link to={"/"}><img src="/covid/images/coronavirus.png" alt="logo" /></Link></li>
                                     <li><Link to={"/tracker/1"} className={active2 +' '+"nav-content-bttn"}><span className="circle-icon bg-warning"></span><i className="ti-pie-chart"></i></Link></li>
                                     <li><Link to={"/tracker/2"} className={active1 +' '+"nav-content-bttn"} data-tab="table" ><span className="circle-icon bg-danger"></span><i className="ti-view-list"></i></Link></li>
                                     <li><Link to={"/tracker/3"} className={active3 +' '+"nav-content-bttn"} data-tab="tiles"><i className="ti-view-grid"></i></Link></li>

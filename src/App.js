@@ -10,10 +10,10 @@ import Tracker from './Tracker';
 function App() {
   const history=useHistory();
 
-  //console.log('chirag');
+  console.log('chirag');
   return (
    
-  <BrowserRouter>
+  <BrowserRouter basename="/covid">
     <switch>
       <Route exact path={"/"}>
         <Home />
